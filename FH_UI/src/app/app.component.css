@@ -1,0 +1,78 @@
+.search-bar{
+    width: 40rem;
+    height: 3.5rem;
+    background-color: #e2fcfc;
+    border: 1px solid #e2fcfc;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.navbar{
+    position: relative;
+}
+
+.navbar .fixed-top{
+    position: fixed;
+    top: 0;
+}
+
+#transInput{
+    background: transparent;
+    border: 1px solid #e2fcfc;
+}
+
+.l-icon{
+    font-size: 1.8rem;
+    margin: 0px 10px;
+}
+
+.side-navbar{
+    width: 30%;
+    padding: 8px;
+    height: 100vh;
+    position: relative;
+}
+
+.side-navbar .fixed-left{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#sideNavList{
+    width: 100%;
+}
+
+#sideNavbar .nav-item{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+#sideNavbar .nav-item:active{
+    background-color: #45cdf3;
+    border: 1px solid #45cdf3;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#library{
+    font-size: 17px;
+    margin-left: 40px;
+}
+
+#storage{
+    font-size: 14px;
+}
+
+.img-container{
+    overflow: hidden;
+}
+
+.image{
+   max-width: inherit;
+   max-height: inherit;
+   width: 200px;
+   height: 200px;
+   margin: 3px;
+}
